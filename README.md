@@ -1,6 +1,8 @@
 # Introduction
 
-Welcome to the wonderful world of automatic plant watering and home automation! This repo provides concise instructions and code for the simple no-pump automatic plant watering system [described here](https://www.printables.com/model/43718-automatic-plant-watering-system-ultra-cheap)
+Welcome to the wonderful world of automatic plant watering and home automation!  :palm_tree:  :palm_tree:  :palm_tree:
+
+This repo provides concise instructions and code for the simple no-pump automatic plant watering system [described here](https://www.printables.com/model/43718-automatic-plant-watering-system-ultra-cheap)
 
 <img src="https://media.printables.com/media/prints/43718/images/434527_67eb3612-adee-4225-bf60-efe7ccbdb286/thumbs/inside/1280x960/jpg/large_display_img_20201017_125324_43718.webp" alt="Simple No-pump Automatic Plant-Watering System" width="300"/>
 
