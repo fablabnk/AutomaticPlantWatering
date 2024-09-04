@@ -31,7 +31,7 @@ TL;DR: Coders gonna code :)
 Our baseline goal for the workshop is to get our motor running and write code to time-release water from an upright bottle. If we all get there, then great!
 
 Where you take the project after reaching the baseline is up to you. Some ideas include:
-- Using capacitive soil sensors to release the water only when the soil is dry
+- Using a capacitive soil sensor to release the water only when the soil is dry
 - Optimising the project for minimal power usage (e.g. powering down when not in use)
 - Exploring solar power
 - Collecting and/or serving plant-watering statistics
@@ -47,10 +47,11 @@ Don't worry if you don't get there today - there will be more time to work on th
 
 When all the parts are assembled correctly, the following should happen:
 
+0. The motor starts in the closed position (pinching the hose)
 1. The Arduino tells the servo motor to turn the cam
-2. The cam moves a cam-follower
-3. The cam follower un-pinches our silicon hose to release water from the upright bottle
-5. The water flows down to the plant roots and the plant is happy (maybe!)
+2. The cam moves a cam-follower, which un-pinches our silicon hose to the 'open-position' to release water from the upright bottle
+3. The water flows down to the plant roots and the plant is happy (maybe!)
+4. After a set amount of time, the Arduino tells the servo (and therefore cam) to move back to the closed position
 
 # Wiring the Servo
 
@@ -59,7 +60,7 @@ When wiring a servo motor to an Arduino, the connections should be made as follo
 - The black or brown wire of the servo connects to the GND (ground) pin on the Arduino.
 - The orange or yellow wire (signal wire) of the servo connects to digital pin 9 on the Arduino.
 
-See the [https://docs.arduino.cc/tutorials/generic/basic-servo-control/](Arduino Basic Servo Control) article for more details...
+See the [Arduino Basic Servo Control](https://docs.arduino.cc/tutorials/generic/basic-servo-control/) article for more details...
 
 # Calibrating the Servo
 
@@ -86,7 +87,7 @@ A commented code example can be found [here](./code/watering/watering.ino)
 - The code example attempts to reduce power consumption by disconnecting the servo when the system is in the valve closed state
 - An improved version would completely cut the power to the servo during wait periods instead of just disconnecting the control 
 
-# Adding the Soil Sensor
+# Adding the Capacitative Soil Sensor
 
 Wiring of the sensor should be as follows:
 - Black GND cable goes to GND
