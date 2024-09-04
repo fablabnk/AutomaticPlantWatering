@@ -89,11 +89,11 @@ A commented code example can be found [here](./code/watering/watering.ino)
 
 # Adding the Capacitative Soil Sensor
 
+See [here](https://makersportal.com/blog/2020/5/26/capacitive-soil-moisture-calibration-with-arduino) for some background.
+
 Wiring of the sensor should be as follows:
 - Black GND cable goes to GND
 - Red VCC cable goes to 3.3V and AREF (in parallel)
 - Yellow AOUT cable goes to Analog in Pin A0
-
-See [here](https://makersportal.com/blog/2020/5/26/capacitive-soil-moisture-calibration-with-arduino)
 
 <img src="https://images.squarespace-cdn.com/content/v1/59b037304c0dbfb092fbe894/1590622711213-VD9LBEVQMX3CFYBCR0GG/cap_soil_sensor_arduino_wiring.png?format=2500w" alt="Soil Sensor Arduino Wiring" width="300"/>
