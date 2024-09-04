@@ -1,10 +1,5 @@
-/* Sweep
- by BARRAGAN <http://barraganstudio.com>
- This example code is in the public domain.
-
- modified 8 Nov 2013
- by Scott Fitzgerald
- https://www.arduino.cc/en/Tutorial/LibraryExamples/Sweep
+/* Calibrate to Zero Degrees
+  Simple sketch to force the servo to 0 degrees (should correspond to valve-closed/hose pinched)
 */
 
 #include <Servo.h>
